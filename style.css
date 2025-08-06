@@ -14,7 +14,7 @@
 }
 
 .container-content {
-    background-color: rgb(246, 247, 247);
+    background-color: rgb(255, 255, 255);
     height: 80vh;
     width: 40%;
     display: flex;
@@ -1208,9 +1208,9 @@
 }
 
   .container-content {
-    background-color: rgb(246, 247, 247);
+    background-color: rgb(255, 255, 255);
     height: 2020px;
-    width: 100%;
+    width: 492px;
     display: flex;
     justify-content: center;
     align-items: center;
