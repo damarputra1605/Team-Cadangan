@@ -1232,6 +1232,9 @@
 }
 
 .hafiz-img {
+    -webkit-tap-highlight-color: transparent; /* untuk Android/Chrome */
+    -webkit-user-select: none; /* mencegah select */
+    -webkit-touch-callout: none; /* mencegah menu context */
     width: 85px;
     height: 85px;
     object-fit: cover;
