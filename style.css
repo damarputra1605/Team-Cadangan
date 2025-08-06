@@ -1416,10 +1416,10 @@
 }
 
 .a-damar {
-    -webkit-tap-highlight-color: transparent; /* Menghilangkan highlight biru di mobile Safari/Chrome */
-    outline: none; /* Menghilangkan garis fokus */
-    user-select: none; /* Tidak bisa diseleksi */
-    -webkit-user-drag: none; /* Tidak bisa di-drag */
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .a-damar:focus {
@@ -1447,7 +1447,7 @@
 }
 
 .damar-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.2);
 }
 
 .container-footer {
