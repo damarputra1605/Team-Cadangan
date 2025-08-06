@@ -1232,9 +1232,6 @@
 }
 
 .hafiz-img {
-    -webkit-tap-highlight-color: transparent; /* untuk Android/Chrome */
-    -webkit-user-select: none; /* mencegah select */
-    -webkit-touch-callout: none; /* mencegah menu context */
     width: 85px;
     height: 85px;
     object-fit: cover;
@@ -1247,9 +1244,6 @@
 
 .hafiz-img:hover {
     transform: scale(1.05);
-    -webkit-tap-highlight-color: transparent; /* untuk Android/Chrome */
-    -webkit-user-select: none; /* mencegah select */
-    -webkit-touch-callout: none; /* mencegah menu context */
 }
 
 .aji-img {
@@ -1431,6 +1425,9 @@
     right: 405px;
     bottom: 205px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
 }
 
 .damar-img:hover {
