@@ -1210,7 +1210,7 @@
   .container-content {
     background-color: rgb(246, 247, 247);
     height: 2020px;
-    width: 492px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
