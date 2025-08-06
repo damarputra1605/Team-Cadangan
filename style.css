@@ -1247,6 +1247,9 @@
 
 .hafiz-img:hover {
     transform: scale(1.05);
+    -webkit-tap-highlight-color: transparent; /* untuk Android/Chrome */
+    -webkit-user-select: none; /* mencegah select */
+    -webkit-touch-callout: none; /* mencegah menu context */
 }
 
 .aji-img {
