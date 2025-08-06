@@ -1216,6 +1216,17 @@
     align-items: center;
 }
 
+.a-content {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-content:focus {
+    outline: none;
+}
+
   .img-content {
     width: 275px;
     height: 275px;
@@ -1225,10 +1236,29 @@
     position: relative;
     left: 780px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.img-content:focus {
+    outline: none;
 }
 
   .img-content:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-hafiz {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-hafiz:focus {
+    outline: none;
 }
 
 .hafiz-img {
@@ -1240,10 +1270,29 @@
     position: relative;
     left: 800px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.hafiz-img:focus {
+    outline: none;
 }
 
 .hafiz-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-aji {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-aji:focus {
+    outline: none;
 }
 
 .aji-img {
@@ -1257,10 +1306,29 @@
     left: 690px;
     bottom: 100px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.aji-img:focus {
+    outline: none;
 }
 
 .aji-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-bejel {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-bejel:focus {
+    outline: none;
 }
 
 .bejel-img {
@@ -1274,10 +1342,29 @@
     left: 410px;
     top: 200px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.bejel-img:focus {
+    outline: none;
 }
 
 .bejel-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-irfan {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-irfan:focus {
+    outline: none;
 }
 
 .irfan-img {
@@ -1291,10 +1378,29 @@
     left: 420px;
     top: 182px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.irfan-img:focus {
+    outline: none;
 }
 
 .irfan-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-rival {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-rival:focus {
+    outline: none;
 }
 
 .rival-img {
@@ -1308,10 +1414,29 @@
     left: 130px;
     top: 180px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.rival-img:focus {
+    outline: none;
 }
 
 .rival-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-eka {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-eka:focus {
+    outline: none;
 }
 
 .eka-img {
@@ -1324,10 +1449,29 @@
     right: 845px;
     left: -65px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.eka-img:focus {
+    outline: none;
 }
 
 .eka-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-antoni {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-antoni:focus {
+    outline: none;
 }
 
 .antoni-img {
@@ -1341,10 +1485,29 @@
     left: -120px;
     top: 108px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.antoni-img:focus {
+    outline: none;
 }
 
 .antoni-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-hatma {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-hatma:focus {
+    outline: none;
 }
 
 .hatma-img {
@@ -1358,10 +1521,29 @@
     left: 125px;
     top: 108px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.hatma-img:focus {
+    outline: none;
 }
 
 .hatma-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-tama {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-tama:focus {
+    outline: none;
 }
 
 .tama-img {
@@ -1375,10 +1557,29 @@
     left: -320px;
     bottom: 100px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.tama-img:focus {
+    outline: none;
 }
 
 .tama-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-rahmat {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-rahmat:focus {
+    outline: none;
 }
 
 .rahmat-img {
@@ -1392,10 +1593,29 @@
     left: -325px;
     bottom: 180px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.rahmat-img:focus {
+    outline: none;
 }
 
 .rahmat-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
+}
+
+.a-reno {
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.a-reno:focus {
+    outline: none;
 }
 
 .reno-img {
@@ -1409,10 +1629,18 @@
     left: -205px;
     bottom: 180px;
     transition: transform 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-drag: none;
+    outline: none;
+}
+
+.reno-img:focus {
+    outline: none;
 }
 
 .reno-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.15);
 }
 
 .a-damar {
@@ -1447,7 +1675,7 @@
 }
 
 .damar-img:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 .container-footer {
