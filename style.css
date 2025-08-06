@@ -1430,6 +1430,10 @@
     -webkit-user-drag: none;
 }
 
+.damar-img:focus {
+  outline: none;
+}
+
 .damar-img:hover {
     transform: scale(1.05);
 }
