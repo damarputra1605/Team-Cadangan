@@ -1200,8 +1200,8 @@
   .container-header {
     background-color: rgb(4, 27, 19);
     color: white;
-    height: 10vh;
-    width: 100%;
+    height: 100px;
+    width: 492px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1209,8 +1209,8 @@
 
   .container-content {
     background-color: rgb(246, 247, 247);
-    height: 80vh;
-    width: 40%;
+    height: 810px;
+    width: 492px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1223,7 +1223,7 @@
     border-radius: 50%;
     border: 3px solid rgb(4, 27, 19);
     position: relative;
-    left: 950px;
+    left: 550px;
     transition: transform 0.3s ease;
 }
 
@@ -1238,7 +1238,7 @@
     border-radius: 50%;
     border: 3px solid rgb(4, 27, 19);
     position: relative;
-    left: 970px;
+    left: 570px;
     transition: transform 0.3s ease;
 }
 
@@ -1254,7 +1254,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 90px;
-    left: 860px;
+    left: 460px;
     bottom: 100px;
     transition: transform 0.3s ease;
 }
@@ -1271,7 +1271,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 370px;
-    left: 580px;
+    left: 180px;
     top: 200px;
     transition: transform 0.3s ease;
 }
@@ -1288,7 +1288,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 360px;
-    left: 590px;
+    left: 190px;
     top: 182px;
     transition: transform 0.3s ease;
 }
@@ -1305,7 +1305,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 650px;
-    left: 300px;
+    left: -100px;
     top: 180px;
     transition: transform 0.3s ease;
 }
@@ -1322,7 +1322,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 845px;
-    left: 105px;
+    left: -305px;
     transition: transform 0.3s ease;
 }
 
@@ -1338,7 +1338,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 915px;
-    left: 50px;
+    left: -350px;
     top: 108px;
     transition: transform 0.3s ease;
 }
@@ -1355,7 +1355,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 645px;
-    left: 305px;
+    left: -105px;
     top: 108px;
     transition: transform 0.3s ease;
 }
@@ -1372,7 +1372,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 1100px;
-    left: -150px;
+    left: -550px;
     bottom: 100px;
     transition: transform 0.3s ease;
 }
@@ -1389,7 +1389,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 1105px;
-    left: -155px;
+    left: -555px;
     bottom: 180px;
     transition: transform 0.3s ease;
 }
@@ -1406,7 +1406,7 @@
     border: 3px solid rgb(4, 27, 19);
     position: relative;
     right: 1105px;
-    left: -35px;
+    left: -435px;
     bottom: 180px;
     transition: transform 0.3s ease;
 }
@@ -1422,7 +1422,7 @@
     border-radius: 50%;
     border: 3px solid rgb(4, 27, 19);
     position: relative;
-    right: 235px;
+    right: 635px;
     bottom: 205px;
     transition: transform 0.3s ease;
 }
@@ -1434,7 +1434,8 @@
 .container-footer {
     background-color: rgb(4, 27, 19);
     color: white;
-    height: 10vh;
+    height: 100px;
+    width: 492px;
     display: flex;
     justify-content: center;
     align-items: center;
