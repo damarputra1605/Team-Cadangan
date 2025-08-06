@@ -1439,6 +1439,7 @@
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     -webkit-user-drag: none;
+    outline: none;
 }
 
 .damar-img:focus {
